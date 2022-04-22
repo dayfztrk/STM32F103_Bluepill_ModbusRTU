@@ -7,4 +7,6 @@ In this code, RS485 channel tied to USART3. RS232 channel tied to USART2.
 RS485 enable pins are not tied. So, You can write code where it is in the annotated comment line.
 RX is in INT mode, TX is in Polling Mode.
 Modbus table is defined in typedef struct such as class. You can expend the paramenters (registers).
+Modbus request ID have to 1 or 254 to prepare response. 254-> always 1->R/W of deviceModbusID
+
 
